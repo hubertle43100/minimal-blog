@@ -7,4 +7,10 @@ export interface Post {
     current: string;
   };
   _createdAt: string;
+  thumbnail?: {
+    asset: {
+      url: string;
+    };
+    alt: string;
+  };
 }

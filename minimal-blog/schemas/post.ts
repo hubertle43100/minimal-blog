@@ -4,6 +4,14 @@ export default {
   title: 'Post',
   fields: [
     {
+      name: 'thumbnail',
+      type: 'image',
+      title: 'Thumbnail',
+      options: {
+        hotspot: true,
+      },
+    },
+    {
       name: 'title',
       type: 'string',
       title: 'Title',
@@ -41,13 +49,8 @@ export default {
         },
         {
           type: 'code',
-          block: [
-            {
-              name: 'code',
-              title: 'code block',
-              type: 'code',
-            },
-          ],
+          name: 'codeBlock',
+          title: 'Code Block',
         },
       ],
     },

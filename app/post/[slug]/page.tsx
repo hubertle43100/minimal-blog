@@ -5,7 +5,7 @@ import { PortableText } from "@portabletext/react";
 import Image from "next/image";
 
 async function getData(slug: string) {
-  const query = `*[_type == "post" && slug.current == "${slug}"][0]`;
+  const query = `*[_type == "post" && slug.current == "${slug}"] | order(_createdAt desc) [0] `;
 
   const data = await client.fetch(query);
 
@@ -18,12 +18,13 @@ export default async function SlugPage({
   params: { slug: string };
 }) {
   const data = (await getData(params.slug)) as Post;
+  const uniqueQueryParam = `?timestamp=${new Date().getTime()}`;
 
   const PortableTextComponent = {
     types: {
       image: ({ value }: { value: any }) => (
         <Image
-          src={urlFor(value).url()}
+          src={`${urlFor(value).url()}${uniqueQueryParam}`}
           alt="Image"
           className="rounded-lg"
           width={800}
@@ -40,7 +41,11 @@ export default async function SlugPage({
           <div className="space-y-10">
             <div>
               <p className="text-base font-medium leading-6 text-teal-500">
-                {new Date(data._createdAt).toISOString().split("T")[0]}
+                {new Date(data._createdAt).toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
               </p>
             </div>
           </div>
