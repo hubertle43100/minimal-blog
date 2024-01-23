@@ -7,7 +7,11 @@ import Image from "next/image";
 async function getData(slug: string) {
   const query = `*[_type == "post" && slug.current == "${slug}"] | order(_createdAt desc) [0] `;
 
-  const data = await client.fetch(query);
+  const headers = {
+    "Cache-Control": "public, max-age=3600",
+  };
+
+  const data = await client.fetch(query, { headers });
 
   return data;
 }
@@ -27,8 +31,9 @@ export default async function SlugPage({
           src={`${urlFor(value).url()}${uniqueQueryParam}`}
           alt="Image"
           className="rounded-lg"
-          width={800}
-          height={800}
+          width={600}
+          height={600}
+          loading="lazy"
         />
       ),
     },
@@ -51,7 +56,7 @@ export default async function SlugPage({
           </div>
 
           <div>
-            <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+            <h1 className="text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
               {data.title}
             </h1>
           </div>

@@ -2,6 +2,9 @@ import { client } from "./lib/sanity";
 import { Post } from "./lib/interface";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
+import { Source_Code_Pro } from "next/font/google";
+
+const sourceCodeProStyles = Source_Code_Pro({ subsets: ["latin"] });
 
 async function getData() {
   const query = `*[_type == "post"]{
@@ -56,7 +59,9 @@ export default async function IndexPage() {
           <div className="w-2/3 pr-4">
             <article className="space-y-2">
               <div>
-                <p>Featured</p>
+                <p className="mb-2">
+                  <span className="bg-yellow-200">Featured</span>
+                </p>
                 {featuredArticle.thumbnail && (
                   <img
                     src={featuredArticle.thumbnail.asset.url}
@@ -64,7 +69,7 @@ export default async function IndexPage() {
                     className="w-full h-350 object-cover"
                   />
                 )}
-                <p className="text-base font-medium leading-6 text-teal-500">
+                <p className="text-base font-medium leading-6 text-teal-500 mt-2">
                   {new Date(featuredArticle._createdAt).toLocaleDateString(
                     "en-US",
                     {
@@ -87,7 +92,9 @@ export default async function IndexPage() {
                   </h3>
                 </div>
 
-                <p className="prose max-w-none text-gray-500 dark:text-gray-400 line-clamp-6">
+                <p
+                  className={` ${sourceCodeProStyles.className} prose max-w-none font-mono text-gray-500 dark:text-gray-400 line-clamp-6`}
+                >
                   {featuredArticle.overview}
                 </p>
               </Link>
@@ -125,7 +132,9 @@ export default async function IndexPage() {
                       </h3>
                     </div>
 
-                    <p className="prose max-w-none text-sm text-gray-500 dark:text-gray-400 line-clamp-4">
+                    <p
+                      className={`${sourceCodeProStyles.className} prose max-w-none text-sm text-gray-500 dark:text-gray-400 line-clamp-4`}
+                    >
                       {post.overview}
                     </p>
                   </Link>
