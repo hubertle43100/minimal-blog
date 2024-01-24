@@ -3,6 +3,9 @@ import { client } from "@/app/lib/sanity";
 import { urlFor } from "@/app/lib/sanityImageUrl";
 import { PortableText } from "@portabletext/react";
 import Image from "next/image";
+import { Source_Code_Pro } from "next/font/google";
+
+const sourceCodeProStyles = Source_Code_Pro({ subsets: ["latin"] });
 
 async function getData(slug: string) {
   const query = `*[_type == "post" && slug.current == "${slug}"] | order(_createdAt desc) [0] `;
@@ -65,7 +68,9 @@ export default async function SlugPage({
 
       <div className="divide-y divide-gray-200 pb-7 dark:divide-gray-700 xl:divide-y-0">
         <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
-          <div className="prose max-w-none pb-8 pt-10 dark:prose-invert prose-lg">
+          <div
+            className={`${sourceCodeProStyles.className} prose max-w-none pb-8 pt-10 dark:prose-invert prose-sm `}
+          >
             <PortableText
               value={data.content}
               components={PortableTextComponent}
