@@ -14,10 +14,11 @@
 
 `Tech stacks`
 
-![Sanity](https://img.shields.io/badge/Sanity-white?style=for-the-badge&logo=Cloudflare&logoColor=000000)
-![Typescript](https://img.shields.io/badge/TypeScript-white?style=for-the-badge&logo=typescript&logoColor=000000)
-![React](https://img.shields.io/badge/React-white?style=for-the-badge&logo=react&logoColor=000000)
-![Next](https://img.shields.io/badge/next%20js-white?style=for-the-badge&logo=nextdotjs&logoColor=000000)
+[![Sanity](https://img.shields.io/badge/Sanity-white?style=for-the-badge&logo=Cloudflare&logoColor=000000)](https://minimal-blog-lime.vercel.app/)
+[![Typescript](https://img.shields.io/badge/TypeScript-white?style=for-the-badge&logo=typescript&logoColor=000000)](https://minimal-blog-lime.vercel.app/)
+[![React](https://img.shields.io/badge/React-white?style=for-the-badge&logo=react&logoColor=000000)](https://minimal-blog-lime.vercel.app/)
+[![Next](https://img.shields.io/badge/next%20js-white?style=for-the-badge&logo=nextdotjs&logoColor=000000)](https://minimal-blog-lime.vercel.app/)
+
 
 <br/>
 
@@ -27,6 +28,8 @@
 Sanity.io website and query the data to
 display it on my blog site which includes
 rich text and images.**
+
+> Writing about all sorts of topics from React to productivity
 
 
 <br/>
@@ -53,19 +56,27 @@ rich text and images.**
 
 `Screenshots`
 
+<p align="center">
+    <img src="https://github.com/hubertle43100/minimal-blog/assets/56861838/bb69f5a0-76ec-4004-a2ff-9c63a374b87c" alt="Hobbies">
+  </p>
+
+> This is the Landing page greeted by a featured blog with a nice banner thumbnail.
+
+<br/>
 <br/>
 
 `Found something wrong with the website?`
 
-![Check](https://img.shields.io/badge/Check_Issue-%23039BE5.svg?&style=for-the-badge&logo=Signal&logoColor=white)
+[![Check](https://img.shields.io/badge/Issues-FFDE59?style=for-the-badge&logo=Linode&logoColor=black)](https://github.com/hubertle43100/minimal-blog/issues)
 
 <br/>
 
 `Social Links`
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-white?style=for-the-badge&logo=Hack%20Club&logoColor=000000)](https://docs.google.com/document/d/1Fc6ZAAm4Fiv0p0UK5F1iVpld3Pnl3anmL2_ca6cMP3w/edit?usp=sharing)
-![Git](https://img.shields.io/badge/GitHub-white?style=for-the-badge&logo=github&logoColor=000000)
+[![Portfolio](https://img.shields.io/badge/Portfolio-white?style=for-the-badge&logo=Hack%20Club&logoColor=000000)](https://hubertle.online/)
+[![Git](https://img.shields.io/badge/GitHub-white?style=for-the-badge&logo=github&logoColor=000000)](https://github.com/hubertle43100)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=linkedin&logoColor=000000)](https://www.linkedin.com/in/hubertle/)
-![Email](https://img.shields.io/badge/Gmail-white?style=for-the-badge&logo=gmail&logoColor=000000)
+[![Email](https://img.shields.io/badge/Gmail-white?style=for-the-badge&logo=gmail&logoColor=000000)](mailto:hubertle43100@gmail.com?subject=👋%20Hello%20there!&body=Thanks%20for%20checking%20out%20my%20portfolio%20🙏
+)
 <br>
 
