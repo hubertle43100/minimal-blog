@@ -1,3 +1,9 @@
+
+<p align="center">
+  <img src="https://github.com/hubertle43100/minimal-blog/assets/56861838/51a7f718-75c6-4ef8-8a27-1a2e2cc3a031" width="250" height="250" alt="Hobbies">
+</p>
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
