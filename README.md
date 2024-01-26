@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a href="https://minimal-blog-lime.vercel.app/">
+  <p align="center">
+    <img src="https://github.com/hubertle43100/minimal-blog/assets/56861838/51a7f718-75c6-4ef8-8a27-1a2e2cc3a031" width="150" height="150" alt="Hobbies">
+  </p>
+  <p align="center">
+    <img src="https://img.shields.io/badge/Live Demo-FFDE59?style=for-the-badge&logo=WakaTime&logoColor=000000" alt="Website Badge">
+  </p>
+</a>
+<p align="center">
+  <strong>✏️ Website blog about all topics learned for <br> front-end & interesting topics</strong>
+</p>
 
-## Getting Started
+<br/>
 
-First, run the development server:
+`Tech stacks`
+
+[![Sanity](https://img.shields.io/badge/Sanity-white?style=for-the-badge&logo=Cloudflare&logoColor=000000)](https://minimal-blog-lime.vercel.app/)
+[![Typescript](https://img.shields.io/badge/TypeScript-white?style=for-the-badge&logo=typescript&logoColor=000000)](https://minimal-blog-lime.vercel.app/)
+[![React](https://img.shields.io/badge/React-white?style=for-the-badge&logo=react&logoColor=000000)](https://minimal-blog-lime.vercel.app/)
+[![Next](https://img.shields.io/badge/next%20js-white?style=for-the-badge&logo=nextdotjs&logoColor=000000)](https://minimal-blog-lime.vercel.app/)
+
+
+<br/>
+
+`Introduction`
+
+**Using Sanity CMS I can write blogs on the
+Sanity.io website and query the data to
+display it on my blog site which includes
+rich text and images.**
+
+> Writing about all sorts of topics from React to productivity
+
+
+<br/>
+
+`Get Started`
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Steps to contribute/run the code locally
+  * 1. Clone Repository:
+    https://github.com/hubertle43100/minimal-blog.git
+
+  * 2. Navigate to the Project Directory:
+    cd your-react-project
+
+  * 3. Install Dependencies
+    npm install
+
+  * 4. Start the Development Server
+    npm run dev
+
+  * 5. Open up "http://localhost:3000"
 ```
+<br/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+`Screenshots`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<p align="center">
+    <img src="https://github.com/hubertle43100/minimal-blog/assets/56861838/bb69f5a0-76ec-4004-a2ff-9c63a374b87c" alt="Hobbies">
+  </p>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+> This is the Landing page greeted by a featured blog with a nice banner thumbnail.
 
-## Learn More
+<br/>
+<br/>
 
-To learn more about Next.js, take a look at the following resources:
+`Found something wrong with the website?`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Check](https://img.shields.io/badge/Issues-FFDE59?style=for-the-badge&logo=Linode&logoColor=black)](https://github.com/hubertle43100/minimal-blog/issues)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<br/>
 
-## Deploy on Vercel
+`Social Links`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[![Portfolio](https://img.shields.io/badge/Portfolio-white?style=for-the-badge&logo=Hack%20Club&logoColor=000000)](https://hubertle.online/)
+[![Git](https://img.shields.io/badge/GitHub-white?style=for-the-badge&logo=github&logoColor=000000)](https://github.com/hubertle43100)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=linkedin&logoColor=000000)](https://www.linkedin.com/in/hubertle/)
+[![Email](https://img.shields.io/badge/Gmail-white?style=for-the-badge&logo=gmail&logoColor=000000)](mailto:hubertle43100@gmail.com?subject=👋%20Hello%20there!&body=Thanks%20for%20checking%20out%20my%20portfolio%20🙏
+)
+<br>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
