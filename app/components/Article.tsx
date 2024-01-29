@@ -20,15 +20,15 @@ const Article: React.FC<ArticleDetailsProps> = ({ otherPosts }) => {
             key={post._id}
             className="py-4 transition duration-300 ease-in-out transform "
           >
-            <article className="space-y-2 p-8 border border-black border-t-4 border-t-blue-400 rounded-md">
+            <article className="space-y-2 p-8 border border-black border-t-4 border-t-secondary rounded-md">
               <Link
                 href={`/post/${post.slug.current}`}
                 prefetch
                 className="space-y-3"
               >
                 <div className="flex items-center">
-                  <FaRegCalendarCheck className="mr-2 text-blue-400" />
-                  <p className="text-sm font-medium  text-blue-400">
+                  <FaRegCalendarCheck className="mr-2 text-secondary" />
+                  <p className="text-sm font-medium  text-secondary">
                     {new Date(post._createdAt).toLocaleDateString("en-US", {
                       year: "numeric",
                       month: "long",

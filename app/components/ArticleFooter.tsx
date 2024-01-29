@@ -11,7 +11,7 @@ const sharedIconClass =
 const ArticleFooter = () => {
   return (
     <>
-      <div className="border-t my-4 mt-4 " />
+      {/* <div className="border-t my-4 mt-4 " /> */}
 
       <div className="mt-5 flex flex-col-2 sm:flex-row items-center font-mono opacity-50 text-sm pt-5">
         <div className="flex items-center mb-2 sm:mb-0">
