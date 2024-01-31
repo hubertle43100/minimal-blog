@@ -1,14 +1,15 @@
 <a href="https://minimal-blog-lime.vercel.app/">
   <p align="center">
-    <img src="https://github.com/hubertle43100/minimal-blog/assets/56861838/51a7f718-75c6-4ef8-8a27-1a2e2cc3a031" width="150" height="150" alt="Hobbies">
+    <img src="https://github.com/hubertle43100/minimal-blog/assets/56861838/578bfafc-1a6a-43e4-a404-64b0a091e6fb" width="150" height="150" alt="Hobbies">
   </p>
   <p align="center">
-    <img src="https://img.shields.io/badge/Live Demo-FFDE59?style=for-the-badge&logo=WakaTime&logoColor=000000" alt="Website Badge">
+    <img src="https://img.shields.io/badge/Live Demo-FACC14?style=for-the-badge&logo=WakaTime&logoColor=000000" alt="Website Badge">
   </p>
 </a>
 <p align="center">
   <strong>✏️ Website blog about all topics learned for <br> front-end & interesting topics</strong>
 </p>
+
 
 <br/>
 
@@ -67,7 +68,7 @@ rich text and images.**
 
 `Found something wrong with the website?`
 
-[![Check](https://img.shields.io/badge/Issues-FFDE59?style=for-the-badge&logo=Linode&logoColor=black)](https://github.com/hubertle43100/minimal-blog/issues)
+[![Check](https://img.shields.io/badge/Issues-FACC14?style=for-the-badge&logo=Linode&logoColor=black)](https://github.com/hubertle43100/minimal-blog/issues)
 
 <br/>
 
