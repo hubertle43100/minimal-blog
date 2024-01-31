@@ -4,6 +4,7 @@ import ArticleFooter from "./ArticleFooter";
 import { FaRegCalendarCheck } from "react-icons/fa";
 import { Source_Code_Pro } from "next/font/google";
 import { Post } from "../lib/interface";
+import Image from "next/image";
 
 const sourceCodeProStyles = Source_Code_Pro({ subsets: ["latin"] });
 
@@ -39,7 +40,7 @@ const Featured: React.FC<FeaturedArticleDetailsProps> = ({
       >
         <div>
           {featuredArticle.thumbnail && (
-            <img
+            <Image
               src={featuredArticle.thumbnail.asset.url}
               alt={featuredArticle.thumbnail.alt}
               className="w-full h-350 object-cover hover:scale-95 transition-transform duration-600"

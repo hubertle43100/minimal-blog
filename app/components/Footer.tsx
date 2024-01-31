@@ -45,7 +45,7 @@ const Footer = () => {
           <p className="text-md mt-6">Healthy intake of tech blogs</p>
           <p className="text-4xl font-bold mb-6">Get in the know</p>
           <p className={`${sourceCodeProStyles.className} text-sm`}>
-            We're passionate about simplifying front-end topics for better
+            We are passionate about simplifying front-end topics for better
             understanding, continuously learning to enhance visuals and stay
             current with design trends - Subscribe to our newsletter for the
             latest updates!
