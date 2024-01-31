@@ -61,7 +61,7 @@ export default async function IndexPage() {
         {featuredArticle && (
           <div>
             <Featured featuredArticle={featuredArticle} />
-            <Newsletter />
+            {/* <Newsletter /> */}
             <Article otherPosts={otherPosts} />
           </div>
         )}
