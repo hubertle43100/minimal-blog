@@ -15,15 +15,15 @@ const Featured: React.FC<FeaturedArticleDetailsProps> = ({
   featuredArticle,
 }) => {
   return (
-    <article className="space-y-2 p-8 border border-black border-t-4 border-t-yellow-400 rounded-md ">
+    <article className="space-y-2 p-8 border border-black border-t-4 border-t-primary rounded-md ">
       <div>
         <p className="mb-3">
-          <span className="bg-yellow-400 p-2 rounded-sm font-bold">
+          <span className="bg-primary p-2 rounded-sm font-bold">
             Featured
           </span>
         </p>
-        <p className="flex items-center text-base font-medium leading- mt-2 text-yellow-400 pb-4 pt-2">
-          <FaRegCalendarCheck className="mr-2 text-yellow-400" />
+        <p className="flex items-center text-base font-medium leading- mt-2 text-secondary pb-4 pt-2">
+          <FaRegCalendarCheck className="mr-2 text-secondary" />
           {new Date(featuredArticle._createdAt).toLocaleDateString("en-US", {
             year: "numeric",
             month: "long",
