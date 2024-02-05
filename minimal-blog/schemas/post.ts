@@ -54,5 +54,14 @@ export default {
         },
       ],
     },
+    {
+      name: 'category',
+      type: 'string',
+      title: 'Category',
+      description: 'Choose a category for the post (e.g., Front-end, etc.)',
+      options: {
+        list: ['Front-end', 'UX/UI', 'Job', 'Featured'],
+      },
+    },
   ],
 }
