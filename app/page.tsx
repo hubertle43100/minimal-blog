@@ -24,7 +24,9 @@ async function getData() {
       },
       alts
     },
-    content
+    content,
+    category,
+    readingTime
   }`;
 
   const data = await client.fetch(query);
@@ -37,14 +39,12 @@ export const dynamic = "force-dynamic";
 export default async function IndexPage() {
   const data = (await getData()) as Post[];
 
-  // Find the article with title "Mastering Tailwind CSS Basics"
-  const featuredArticle = data.find(
-    (post) => post.title === "Mastering Tailwind CSS Basics"
-  );
+  // Find the article with category "Featured"
+  const featuredArticle = data.find((post) => post.category === "Featured");
 
   // Filter out the featured article from the list
   const otherPosts = data
-    .filter((post) => post.title !== "Mastering Tailwind CSS Basics")
+    .filter((post) => post.category !== "Featured")
     .sort(
       (a, b) =>
         new Date(b._createdAt).getTime() - new Date(a._createdAt).getTime()

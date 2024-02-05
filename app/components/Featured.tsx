@@ -43,6 +43,8 @@ const Featured: React.FC<FeaturedArticleDetailsProps> = ({
             <Image
               src={featuredArticle.thumbnail.asset.url}
               alt={featuredArticle.thumbnail.alt}
+              width={600}
+              height={600}
               className="w-full h-350 object-cover hover:scale-95 transition-transform duration-600"
             />
           )}
@@ -56,7 +58,7 @@ const Featured: React.FC<FeaturedArticleDetailsProps> = ({
           {featuredArticle.overview}
         </p>
       </Link>
-      <ArticleFooter />
+      <ArticleFooter Article={featuredArticle} />
     </article>
   );
 };

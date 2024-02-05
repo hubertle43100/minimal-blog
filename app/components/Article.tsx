@@ -48,7 +48,7 @@ const Article: React.FC<ArticleDetailsProps> = ({ otherPosts }) => {
                   {post.overview}
                 </p>
               </Link>
-              <ArticleFooter />
+              <ArticleFooter Article={post} />
             </article>
           </li>
         ))}

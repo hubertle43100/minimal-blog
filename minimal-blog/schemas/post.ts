@@ -60,8 +60,14 @@ export default {
       title: 'Category',
       description: 'Choose a category for the post (e.g., Front-end, etc.)',
       options: {
-        list: ['Front-end', 'UX/UI', 'Job', 'Featured'],
+        list: ['Front-end', 'UX/UI', 'Job Search', 'Featured'],
       },
+    },
+    {
+      name: 'readingTime',
+      type: 'number',
+      title: 'Reading Time',
+      description: 'Enter the estimated reading time in minutes',
     },
   ],
 }

@@ -80,7 +80,7 @@ export default async function SlugPage({
             </div>
           </div>
         </div>
-        <ArticleFooter />
+        <ArticleFooter Article={data} />
       </div>
     </div>
   );

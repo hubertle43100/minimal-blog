@@ -1,4 +1,6 @@
 export interface Post {
+  readingTime: Int16Array;
+  category: string;
   title: string;
   overview: string;
   content: any;

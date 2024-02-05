@@ -4,11 +4,16 @@ import { FaBook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { LuMenuSquare } from "react-icons/lu";
 import { RiAccountBoxFill } from "react-icons/ri";
+import { Post } from "../lib/interface";
 
 const sharedIconClass =
   "flex items-center mb-2 mr-1 sm:mb-0 hover:opacity-30 text-md md:text-lg md:mr-3";
 
-const ArticleFooter = () => {
+interface FeaturedArticleDetailsProps {
+  Article: Post;
+}
+
+const ArticleFooter: React.FC<FeaturedArticleDetailsProps> = ({ Article }) => {
   return (
     <>
       {/* <div className="border-t my-4 mt-4 " /> */}
@@ -16,11 +21,11 @@ const ArticleFooter = () => {
       <div className="mt-5 flex flex-col-2 sm:flex-row items-center font-mono opacity-50 text-sm pt-5">
         <div className="flex items-center mb-2 sm:mb-0">
           <FaBook className="mr-2" />
-          <span className="mr-3">3 mins</span>
+          <span className="mr-3">{Article.readingTime} mins</span>
         </div>
         <div className="flex items-center mb-2 sm:mb-0">
           <LuMenuSquare className="mr-2 text-lg" />
-          <span className="mr-3">React.js</span>
+          <span className="mr-3">{Article.category}</span>
         </div>
         <div className="flex items-center mb-2 sm:mb-0">
           <RiAccountBoxFill className="mr-2 text-lg" />
