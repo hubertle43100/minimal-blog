@@ -14,8 +14,9 @@ interface ArticleDetailsProps {
 const Article: React.FC<ArticleDetailsProps> = ({ otherPosts }) => {
   return (
     <div className={"w-full"}>
+      <p className="mt-8 text-3xl font-bold">Latest articles</p>
       <ul>
-        {otherPosts.map((post) => (
+        {otherPosts.slice(0, 3).map((post) => (
           <li
             key={post._id}
             className="py-4 transition duration-300 ease-in-out transform "
@@ -37,7 +38,7 @@ const Article: React.FC<ArticleDetailsProps> = ({ otherPosts }) => {
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-1xl  font-bold text-gray-900 dark:text-gray-100 hover:text-gray-500">
+                  <h3 className="text-1xl font-bold text-gray-900 dark:text-gray-100 hover:text-gray-500">
                     {post.title}
                   </h3>
                 </div>
