@@ -9,6 +9,7 @@ import Article from "./components/Article";
 import Footer from "./components/Footer";
 import Newsletter from "./components/Newsletter";
 import PictureArticle from "./components/PictureArticle";
+import OneMinuteArticle from "./components/OneMinuteArticle";
 
 const sourceCodeProStyles = Source_Code_Pro({ subsets: ["latin"] });
 
@@ -64,6 +65,11 @@ export default async function IndexPage() {
             <Featured featuredArticle={featuredArticle} />
             <PictureArticle otherPosts={otherPosts} />
             <Article otherPosts={otherPosts} />
+            <OneMinuteArticle
+              params={{
+                slug: otherPosts[0].slug.current,
+              }}
+            />
           </div>
         )}
       </div>

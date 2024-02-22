@@ -4,6 +4,7 @@ import ArticleFooter from "./ArticleFooter";
 import { FaRegCalendarCheck } from "react-icons/fa";
 import { Source_Code_Pro } from "next/font/google";
 import { Post } from "../lib/interface";
+import OneMinuteArticle from "./OneMinuteArticle";
 
 const sourceCodeProStyles = Source_Code_Pro({ subsets: ["latin"] });
 
