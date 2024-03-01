@@ -16,7 +16,7 @@ const Featured: React.FC<FeaturedArticleDetailsProps> = ({
   featuredArticle,
 }) => {
   return (
-    <article className="space-y-2 p-8 border border-black border-t-4 border-t-yellow-400 rounded-md">
+    <article className="space-y-2 p-8 border border-black border-t-4 border-t-yellow-400 rounded-md ">
       <div>
         <p className="mb-3">
           <span className="bg-yellow-400 p-2 rounded-sm font-bold">
@@ -45,7 +45,7 @@ const Featured: React.FC<FeaturedArticleDetailsProps> = ({
               alt={featuredArticle.thumbnail.alt}
               width={200}
               height={200}
-              className="w-full h-350 object-cover hover:scale-95 transition-transform duration-600"
+              className="w-1/2 object-cover hover:scale-95 transition-transform duration-600"
             />
           )}
           <h3 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100 mt-4 hover:text-gray-500">

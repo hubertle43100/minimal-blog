@@ -9,7 +9,7 @@ import ArticleFooter from "@/app/components/ArticleFooter";
 const sourceCodeProStyles = Source_Code_Pro({ subsets: ["latin"] });
 
 async function getData(slug: string) {
-  const query = `*[_type == "post" && slug.current == "${slug}" && readingTime == 1] | order(_createdAt desc) [0] `;
+  const query = `*[_type == "post" && slug.current == "${slug}"] | order(_createdAt desc) [0] `;
 
   const headers = {
     "Cache-Control": "public, max-age=3600",

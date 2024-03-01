@@ -37,7 +37,6 @@ const PictureArticle: React.FC<PictureArticleDetailsProps> = ({
                       alt={post.thumbnail.alt}
                       width={400}
                       height={400}
-                      layout="full"
                       objectFit="cover"
                       className="object-cover w-full h-full"
                     />
