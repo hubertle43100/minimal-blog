@@ -58,10 +58,10 @@ rich text and images.**
 `Screenshots`
 
 <p align="center">
+  <a href="https://minimal-blog-lime.vercel.app/">
     <img src="https://github.com/hubertle43100/minimal-blog/assets/56861838/bb69f5a0-76ec-4004-a2ff-9c63a374b87c" alt="Hobbies">
-  </p>
-
-> This is the Landing page greeted by a featured blog with a nice banner thumbnail.
+  </a>
+</p> This is the Landing page greeted by a featured blog with a nice banner thumbnail.
 
 <br/>
 <br/>
