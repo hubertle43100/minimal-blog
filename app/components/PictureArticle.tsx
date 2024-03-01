@@ -48,6 +48,7 @@ const PictureArticle: React.FC<PictureArticleDetailsProps> = ({
                     {post.category}
                   </p>
                   {post.title}
+                  {/* error removed */}
                 </h3>
               </Link>
             </article>
